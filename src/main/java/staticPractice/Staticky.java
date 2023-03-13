@@ -1,4 +1,4 @@
-package practicepackage;
+package staticPractice;
 
 public class Staticky {
 	static int a = 3;

@@ -1,4 +1,4 @@
-package practicepackage;
+package staticPractice;
 
 class Employee {
 	int employeeId;
