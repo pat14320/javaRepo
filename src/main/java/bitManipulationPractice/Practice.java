@@ -33,6 +33,7 @@ public class Practice {
 		// Answer should be 10001001100. Which is 76 (newly added M value) + 512 (original N value),
 		// which equals 588.
 		System.out.println(updateBits(n, m, 2, 6));
+		
 	}
 
 }
