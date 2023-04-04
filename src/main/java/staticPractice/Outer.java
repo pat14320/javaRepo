@@ -26,7 +26,10 @@ public class Outer {
 	}
 
 	public static void main(String[] args) {
-		Outer.InnerStatic innerStatic = new Outer.InnerStatic();
+		// Can do the complicated form below or can even remove the referencing with the periods.
+		// If it's a static inner class, can easily directly access things
+		// Outer.InnerStatic innerStatic = new Outer.InnerStatic();
+		InnerStatic innerStatic = new InnerStatic();
 		innerStatic.display();
 		
 		// Below code isn't allowed because need enclosing instance if inner class is non-static
