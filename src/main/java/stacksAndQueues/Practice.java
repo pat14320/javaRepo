@@ -51,12 +51,6 @@ public class Practice {
 		
 		sortStack(s);
 		printStack(s);
-		
-		String a = "dsfgaregrae";
-		char[] characters = a.toCharArray();
-		Arrays.sort(characters);
-		String sorted = new String(characters);
-		System.out.println(sorted);
 	}
 
 }
